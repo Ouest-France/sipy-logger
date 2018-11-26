@@ -1,6 +1,22 @@
 # sipy_logger
 Programmatically creates python loggers with different handlers (console, file, graylog)
 
+# Install
+
+Install from the github repository:
+
+* with [pipenv](https://pipenv.readthedocs.io/en/latest/):
+
+```sh
+pipenv install git+https://github.com/Ouest-France/sipy_logger.git#egg=sipy_logger
+```
+
+* with `pip`:
+
+```sh
+pip3 install git+https://github.com/Ouest-France/sipy_logger.git
+```
+
 # Usage
 
 * fully declare the logger in the root script (_eg._ `server.py`):
