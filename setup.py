@@ -13,6 +13,9 @@ setuptools.setup(name='sipy_logger',
     author='Ouest-France/SIPA Tech',
     url='https://github.com/Ouest-France/sipy_logger',
     packages=setuptools.find_packages(),
+    install_requires=[
+        'graypy',
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
